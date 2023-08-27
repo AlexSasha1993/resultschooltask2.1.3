@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 300px;
+  height: 300px;
+}
+
+.status {
+  text-align: center;
+  line-height: 1;
+  text-shadow: 2px 4px 3px rgba(224, 34, 34, 0.3);
+  font-family: sans-serif;
+  font-size: 4vw;
+  font-weight: 900;
+}
